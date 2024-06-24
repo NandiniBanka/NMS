@@ -1,0 +1,20 @@
+body {
+    height: 100%;
+    background: linear-gradient(90deg, #9A61E3 20%, white 20%);
+    margin:0px;
+
+}
+#header{
+    text-align: right;
+    background-color: #D4BEF0;
+    margin-left: 20%;
+    padding: 7px;
+}
+
+#left-panel{
+    margin-bottom: 30px;
+    margin-left: 20px;
+    width: 15%;
+    font-size: 150%;
+    padding: 5px;
+}
