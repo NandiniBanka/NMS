@@ -1,0 +1,156 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h1,#copyright{
+	background-color: #80deea00;
+	padding: 10px;
+    border-radius: 5px;
+}
+
+#copyright {
+	position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.content{
+	display: flex;
+	padding-left: 10px;
+    flex-direction: column;
+    background-color: #d9d9d9;
+    border: 15px solid white;
+    
+}
+
+
+
+.btn {
+	border: 1px solid #777777b5;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.form-container{
+	    width: 100%;
+    	margin: 20% 50%;
+	}
+
+	table {
+		    margin-top: 25px;
+	}
+.rightside{
+    width:80%;
+    float: right;
+    background-color: rgb(249, 249, 249);
+}
+.container{
+    display:flex;
+    background-color: rgb(230, 157, 234);
+    width: 100%;
+    padding: 0px;
+    flex-direction: row-reverse;
+    align-content: center;
+    margin-left: auto;
+
+}
+.logoutb{
+   margin: 5px;
+   border-radius: 5px;
+   font-size: 15px ;
+   padding: 5px;
+   background-color: rgba(181, 180, 180, 0.675);
+
+}
+.logoutb:hover{
+    background-color:#7D7B7B;
+
+}
+.container2{
+    display: flex;
+    background-color: #d9d9d9;
+    flex-direction: row-reverse;
+    margin-left: auto;
+    width:100%
+
+}
+.container3{
+    display:flex;
+    background-color: #d9d9d9;
+    padding: 3px;
+    margin-top: 5%;
+    margin-left: auto;
+    border: 15px solid white;
+    justify-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-right: 1.5%;
+   
+}
+.searchm{
+    margin: 5px;
+    border-radius: 8px;
+    padding: 5px;
+}
+.leftside{
+    height: 100vh;
+    width:20%;
+    background:#9A61E3 ;
+    float: left;
+    align-content: center;
+    justify-items: center;
+}
+
+.leftside button a{
+    color: white;
+    text-decoration: none;
+}
+.profile1{
+    margin-left: 8vh;
+    align-items: start;
+} 
+.alerth{
+    background-color: rgba(154, 154, 154, 1);
+    font-size: 30px;
+    border-radius: 8px;
+    margin-left: 15px;
+    padding: 8px;
+    align-items: center;
+}
+.logoutb{
+   margin: 5px;
+   border-radius: 5px;
+   font-size: 15px ;
+   padding: 5px;
+   background-color: rgba(181, 180, 180, 0.675);
+}
+.compcontainer{
+    background-color:#d9d9d9 ;
+    border: 2px solid rgba(35, 35, 35, 1);
+    margin: 2px;
+}
+.notification1{
+    height: 50px;
+}
+.text {
+text-align: center;
+}
+tr,th{
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+td{
+    padding: 8px;
+    margin: 10px;
+
+   
+}
+.btn:hover{
+    background-color:#7D7B7B ;
+}
+.alerth:hover{
+    background-color:#7D7B7B;
+}
