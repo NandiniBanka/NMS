@@ -1,0 +1,111 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #D071F9;
+	padding: 0 10px;
+}
+.table{
+	background-color: white;
+	color: black;
+}
+.container{
+	border: 2px solid black;
+	max-width: 500px;
+	width: 100%;
+	background-color: white;
+	margin: 20px auto;
+	padding: 30px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+.container .title{
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 25px;
+	color: #D071F9;
+	text-transform: uppercase;
+	text-align: center;
+}
+.container .form{
+	width: 100%;
+}
+.container .form .input_field{
+	margin-bottom: 15px;
+	display: flex;
+	align-content: center;
+}
+.container .form .input_field label{
+	width: 200px;
+	margin-right: 10px;
+	font-size: 14px;
+}
+.container .form .input_field .input{
+	width: 100%;
+	outline: none;
+	border: 1px solid #D071F9;
+	font-size: 15px;
+	padding: 8px 10px;
+	border-radius: 3px;
+	transition: all 0.5s ease;
+}
+.container .form .input_field .selectbox{
+	width: 100%;
+	outline: none;
+	border: 1px solid #D071F9;
+	font-size: 15px;
+	padding: 8px 10px;
+	border-radius: 3px;
+	position: relative;
+	transition: all 0.5s ease;
+	-webkit-appearance: none;
+}
+.container .form .input_field .input:focus,
+.container .form .input_field select:focus
+{
+	border: 1px solid purple;
+}
+.container .form .input_field p{
+	font-size: 14px;
+	color: #757575;
+}
+.container .form .input_field .check{
+	width: 15px;
+	height: 15px;
+	position: relative;
+	display: flex;
+	cursor: pointer;
+}
+.container .form .input_field .check input[type = "checkbox"]{
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: ;
+}
+.container .form .input_field .check .checkmark
+{
+	width: 15px;
+	height: 15px;
+	border: 1px #D071F9;
+	display: block;
+	position: relative;
+}
+.container .form .input_field .btn
+{
+	width: 100%;
+	padding: 8px 10px;
+	font-size: 15px;
+	border: none;
+	background-color: #D071F9;
+	color: white;
+	cursor: pointer;
+	border-radius: 3px;
+	outline: none;
+}
+container .form .input_field:last-child{
+	margin-bottom: 0;
+}
+container .form .input_field .btn:hover{
+	background-color: purple;
+}
